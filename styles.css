@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  letter-spacing: 0;
+}
+
+.post {
+  width: 384px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.post-img {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.post-type {
+  padding: 4px 12px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  color: hsl(0, 0%, 7%);
+  font-size: 14px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+}
+.post-date {
+  padding: 12px 0px;
+  color: hsl(0, 0%, 7%);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.post-title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.post-description {
+  padding: 12px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: hsl(0, 0%, 42%);
+}
+.author {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+}
+.author-img {
+  width: 32px;
+  color: hsl(0, 0%, 7%);
+}
+.author-name {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  margin-left: 12px;
+}
